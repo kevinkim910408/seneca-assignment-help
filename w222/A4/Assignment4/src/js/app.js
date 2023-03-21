@@ -189,7 +189,6 @@ artists.forEach((artist)=>{
 
       // 그러고 이제, 각자 element에 맞는 데이터들을 넣어줍니다.
       nameElement.innerText = song.title;
-      const minutes = Math.floor(song.duration / 60);
       durationElement.innerText = Math.floor(song.duration / 60) + " mins " + (song.duration % 60) + " secs";
       yearElement.innerText = song.year;
 
